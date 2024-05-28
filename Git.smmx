@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simplemind-mindmaps>
+<simplemind-mindmaps generator="SimpleMindWin32" gen-version="1.15.0" doc-version="3">
+<mindmap>
+<meta>
+<guid guid="5B38B566B7C443D9BBEB413CBEBB01A7"/>
+<title text="Git"/>
+<style key="system.bright-palette"/>
+<auto-numbering style="disabled"/>
+<scrollstate zoom="110" x="1044" y="643"/>
+<selection guid="oEJC3v3xb0KY-OJwbX7Ong" type="node" id="67"/>
+<main-centraltheme id="0"/>
+</meta>
+<topics>
+<topic id="0" parent="-1" guid="bch1VjfKWUODYdlCigbnfg" x="800.00" y="800.00" layout="top-down" palette="1" colorinfo="1" text="Git"/>
+<topic id="1" parent="0" guid="8cgvyVWq7kSc_Fyw8LONOA" x="-225.15" y="906.31" palette="2" colorinfo="2" text="Các câu lệnh trong cmd"/>
+<topic id="2" parent="1" guid="4Gb1VHpo7ESwoRqKsH-Pvg" x="-152.35" y="952.99" text="cd &quot;đường_dẫn_đến_thư_mục&quot;: Di chuyển"/>
+<topic id="3" parent="1" guid="IJ70D9fEIUOSowQdBmInng" x="-174.85" y="1005.55" text="dir hoặc ls: liệt kê các file, thư mục\Nchứa trong thư mục hiện tại"/>
+<topic id="4" parent="1" guid="5PHixvHc1ECzooCaYrGMiQ" x="-175.35" y="1058.11" text="mkdir &quot;tên_thư_mục&quot;: Tạo thư mục"/>
+<topic id="5" parent="1" guid="xeVb903ZfkyDfe3XITSQoA" x="-209.35" y="1102.67" text="touch &quot;tên_file&quot;: Tạo file"/>
+<topic id="6" parent="1" guid="_5sW0nHn0EqBCzDsnFf--A" x="-270.85" y="1147.23" text="echo"/>
+<topic id="7" parent="6" guid="86BHjpcKaEqqhZbgT78N4w" x="-152.85" y="1191.79" text="echo &quot;nội_dung&quot;: In ra màn hình"/>
+<topic id="8" parent="6" guid="I26C0R9kWU2rNo8DXf3NzA" x="-50.35" y="1244.35" text="echo &quot;nội_dung&quot; &gt; &quot;tên_file&quot;:\NGhi đè nội dung vào file (nếu file không tồn tại sẽ tạo ra file mới)"/>
+<topic id="9" parent="6" guid="GQdsWtCcmUabiljnUh9l6w" x="-55.35" y="1304.91" text="echo &quot;nội_dung&quot; &gt;&gt; &quot;tên_file&quot;:\NThêm nội dung vào file (nếu file không tồn tại sẽ tạo ra file mới"/>
+<topic id="10" parent="6" guid="AGhrdg2UK0mUD76sDEgZ8g" x="-166.85" y="1365.47" text="echo &gt; &quot;tên_file&quot;: Tạo ra file\Nmới (tương tự touch)"/>
+<topic id="11" parent="1" x="-187.35" y="1426.03" text="cat &quot;tên_file&quot;: hiển thị nội dung\Ntrong file ra màn hình"/>
+<topic id="12" parent="1" x="-186.85" y="1486.59" text="diff &quot;tên_file_1&quot; &quot;tên_file_2&quot;: So\Nsánh sự khác biệt giữa 2 file"/>
+<topic id="13" parent="1" guid="pdQNnmUUH0a_jDnOCTq5uw" x="-272.35" y="1539.15" text="rm"/>
+<topic id="14" parent="13" x="-187.85" y="1583.71" text="rm &quot;tên_file&quot;: Xóa file"/>
+<topic id="15" parent="13" guid="iD7nEEQ8iU24scU5sG01Wg" x="-146.35" y="1636.27" text="rm -d &quot;tên_thư_mục&quot;: Xóa thư mục\N(chỉ xóa được thư mục rỗng)"/>
+<topic id="16" parent="13" guid="ZUWq0iwIiECIP7QIviyuhQ" x="-147.85" y="1688.83" text="rm -r &quot;tên_thư_mục&quot;: Xóa thư mục"/>
+<topic id="17" parent="0" guid="pA72ZeL8bEGBatv1fm_a9Q" x="266.21" y="906.31" palette="3" colorinfo="3" text="Các câu lệnh git"/>
+<topic id="18" parent="17" guid="DsFdwtPk2U2AzXTyyGEbJw" x="317.50" y="952.99" text="git --help: hiển thị trợ giúp"/>
+<topic id="19" parent="17" guid="BL2W2k-H8kaxfmC9gRqqmQ" x="404.50" y="997.55" text="git --version hoặc git -v: hiển thị phiên bản git hiện tại"/>
+<topic id="20" parent="17" guid="Qt8tr-NA1k2_2IZEwlZrvw" x="323.00" y="1050.11" text="git status: hiển thị trạng thái\Nkho lưu trữ (repository)"/>
+<topic id="21" parent="17" x="344.00" y="1102.67" text="git log: hiển thị lịch sử các commit"/>
+<topic id="22" parent="17" x="308.00" y="1163.23" text="git init\N&quot;tên_kho_lưu_trữ&quot;: Tạo\Nkho lưu trữ"/>
+<topic id="23" parent="17" x="343.50" y="1239.79" text="git clone &quot;tên_kho_lưu_trữ&quot;\N&quot;kho_lưu_trữ_clone&quot;: Tạo một bản\Nsao được liên kết với repo"/>
+<topic id="24" parent="17" guid="X9aeXR84XEiXpz8o9g5p0Q" x="343.50" y="1300.35" text="git config -l: xem cấu hình hiện tại"/>
+<topic id="25" parent="24" guid="h3oLWio1CkeQ5tjvICmI2A" x="333.50" y="1352.91" text="git config -l [--scope]\N[option_name] [value]"/>
+<topic id="26" parent="25" guid="JGMxCIYlUUSsENIX7la5ug" x="313.00" y="1405.47" text="scope"/>
+<topic id="27" parent="26" guid="-eKQ5XHSSkuZdsgT9qihBw" x="410.50" y="1450.03" text="--system: tất cả người dùng"/>
+<topic id="28" parent="26" guid="zUUZCkiol0a98ove16ZDKg" x="440.00" y="1494.59" text="--global: liên quan đến nhiều repo(s)"/>
+<topic id="29" parent="26" guid="LcWsvp2nok-PPkziCmx_8Q" x="416.00" y="1539.15" text="--local: liên quan đến 1 repo "/>
+<topic id="30" parent="17" guid="5npn1Qjh0UiO4Jsw640AjA" x="256.50" y="1583.71" text="git add"/>
+<topic id="31" parent="30" guid="kLYaNoxjJkmPKX-rhGSWUw" x="327.50" y="1636.27" text="git add &quot;tên_file&quot;:\Nthêm file vào INDEX"/>
+<topic id="32" parent="30" guid="EI9eTUhfX0CgmnzLnfiQ9w" x="377.00" y="1688.83" text="git add . :thêm tất cả file vào INDEX"/>
+<topic id="33" parent="17" guid="RCpS_jiiCk-CZdaZKvalSQ" x="381.50" y="1733.39" text="git commit -m &quot;nội_dung&quot;: Tạo commit -&gt; repo"/>
+<topic id="34" parent="17" guid="2M6VwYxbSkSI4NE0HCl_GA" x="354.50" y="1785.95" text="git status: Sự khác biệt giữa 3 cây\N(HEAD, INDEX, WORKING DIRECTORY)"/>
+<topic id="35" parent="17" x="296.00" y="1846.51" text="git diff: So sánh với\Ncommit cuối cùng"/>
+<topic id="36" parent="17" guid="FSLe54-Xe06k-h2nChCiHA" x="335.50" y="1907.07" text="Những file không muốn đưa lên\Nrepo thì cho vào .gitignore"/>
+<topic id="37" parent="17" x="345.50" y="1959.63" text="git init --bare: Tạo một central repo"/>
+<topic id="38" parent="17" x="328.00" y="2012.19" text="git fetch: Lấy các thông tin về\Ncommit mới từ central"/>
+<topic id="39" parent="17" guid="CzF7zbDrgU6DIfgs1cU3gQ" x="305.00" y="2072.75" text="git pull: Lấy dữ liệu từ\Ncentral về local repo"/>
+<topic id="40" parent="17" guid="-omhO6kjc0KS7PQ5WvJFOg" x="376.00" y="2125.31" text="git push: Đẩy các commit từ local lên central"/>
+<topic id="41" parent="17" guid="7QXPyO9ROUuiiY7ufJc26g" x="273.00" y="2169.87" text="git checkout"/>
+<topic id="42" parent="41" guid="In9OieZqeESrToAlfnOl8g" x="481.50" y="2214.43" text="git checkout &lt;commit_hash&gt;: Quay lại bất kỳ commit nào đã commit"/>
+<topic id="43" parent="41" x="353.50" y="2266.99" text="git checkout &quot;tên_nhánh&quot;:\NChuyển đến nhánh làm việc"/>
+<topic id="44" parent="17" guid="YNYxKFE6K06ehMjmlTfCMg" x="266.50" y="2319.55" text="git branch"/>
+<topic id="45" parent="44" guid="NxSEYRQ2VkixprgXVwA31g" x="340.00" y="2372.11" text="git branch &quot;tên_nhánh&quot;:\NTạo nhánh mới"/>
+<topic id="46" parent="44" guid="XALUj1SngE2MBL7ZqS3u_A" x="405.00" y="2424.67" text="git branch -l : Xem danh sách nhánh hiện có"/>
+<topic id="47" parent="44" guid="iSe6hAwmiEeb7uHFgrdX1w" x="320.50" y="2485.23" text="git branch -d\N&quot;tên_nhánh&quot;: Xóa\Nnhánh (local)"/>
+<topic id="48" parent="47" guid="AHB1kw5LdEqform6i7D4Xw" x="401.00" y="2561.79" text="Sau khi xóa nhánh phải chạy\Nlệnh:( git push origin -d\N&quot;tên_nhánh&quot; ) để xóa trên remote"/>
+<topic id="49" parent="44" x="333.00" y="2630.35" text="git branch -a: Xem tất\Ncả nhánh hiện có"/>
+<topic id="50" parent="44" guid="EPFeY811QU6xJrPnpPG3GA" x="391.00" y="2698.91" text="Chú ý: Chạy lệnh git push -u origin\N&quot;tên_nhánh_mới_tạo&quot; để đẩy nhánh lên\Nremote"/>
+<topic id="51" parent="17" guid="98HpFNKAvECR23_so-P7_A" x="533.00" y="2759.47" text="git merge &quot;tên_nhánh&quot;: Đứng tại nhánh master sử dụng câu lệnh để merge với các nhánh con"/>
+<topic id="52" parent="17" guid="583qkWeBbU-j6vri1Molog" x="266.00" y="2804.03" text="git rebase"/>
+<topic id="53" parent="52" x="371.00" y="2864.59" text="git rebase &quot;tên_nhánh&quot;: Tái cơ sở\Nlại nhánh đang đứng, nối tiếp\Ncommit vào cuối cùng"/>
+<topic id="54" parent="52" guid="Qaomhhm8rEqspHC7wKD-Qw" x="455.00" y="2925.15" text="git rebase --continue: Tiếp tục áp dụng những gì đã thay đổi"/>
+<topic id="55" parent="52" guid="WYzY0o46lUC7zPb60iNeCw" x="391.00" y="2969.71" text="git rebase --skip: Bỏ qua những thay đổi"/>
+<topic id="56" parent="17" guid="mgQ0AIOWBEar5l0cdLkvsg" x="260.00" y="3014.27" text="git reset"/>
+<topic id="57" parent="56" guid="g-cINePXrkejNV8H9tS7-w" x="463.50" y="3074.83" text="git reset --soft &lt;commit_id&gt;\NDi chuyển HEAD về vị trí commit reset\NTrạng thái stage và tất cả sự thay đổi của file được giữ nguyên">
+<style align="left"/>
+</topic>
+<topic id="58" parent="56" guid="LTgEZwjuvkicQOQuWG18Yg" x="592.50" y="3143.39" text="git reset [--mixed]\NDi chuyển HEAD về vị trí commit reset, vẫn giữ tất cả thay đổi của file, nhưng loại bỏ các thay đổi stage">
+<style align="left"/>
+</topic>
+<topic id="59" parent="56" guid="nSa1fLmeGkSHCvAc7q-8hQ" x="523.50" y="3203.95" text="git reset --hard &lt;commit_id&gt;\NDi chuyển con trỏ HEAD về vị trí commit reset và loại bỏ tất cả sự thay đổi của file">
+<style align="left"/>
+</topic>
+<topic id="60" parent="17" guid="gDY5S0ZKs0uMhlV--b1P_g" x="461.00" y="3256.51" text="git revert : Quay lại commit trước đây nhưng không hủy bỏ commit mới"/>
+<topic id="61" parent="60" guid="MCDzl26Fp0SONAhmfjZvLw" x="488.50" y="3301.07" text="git revert --no-edit HEAD : Quay lại commit trước commit HEAD hiện tại"/>
+<topic id="62" parent="60" guid="Xxsi08DAsUmjDKD0A2sB3A" x="422.00" y="3353.63" text="git revert --no-edit &lt;commit_id&gt; : Quay lại commit\Ntrước commit_id"/>
+<topic id="63" parent="62" guid="UZNTgy35wEav2gNij1JDoQ" x="416.00" y="3422.19" text="Khi gặp conflict thì mở file ra sửa, sau\Nđó chạy lệnh ( git add . ), tiếp tục chạy\Nlệnh ( git revert --continue )"/>
+<topic id="64" parent="17" x="332.00" y="3498.75" text="git remote add origin\N&quot;đường_dẫn_dự_án_git&quot; : Liên\Nkết với dự án git trên github"/>
+<topic id="65" parent="17" x="339.50" y="3567.31" text="git branch -M main : Thay đổi tên\Nnhánh master thành main"/>
+<topic id="66" parent="0" guid="iw-Wvz_kl0K1T7bjjg1pfA" x="1163.56" y="906.31" palette="4" colorinfo="4" text="Fork và cập nhật dự án của người khác trên github"/>
+<topic id="67" parent="66" guid="oEJC3v3xb0KY-OJwbX7Ong" x="1457.85" y="976.99" text="Bước 1: Fork dự án của người khác về github mình\NBước 2: Mỗi khi dự án gốc chỉnh sửa để dự án mình đã fork có thể thay đổi theo thì chạy lệnh git remote add &quot;tên_bất_kỳ&quot; &quot;đường_dẫn_git_gốc&quot;\NBước 3: Tiếp theo chạy git fetch &quot;tên_bất_kỳ&quot;\NBước 4: Chạy lệnh git merge &quot;tên_bất_kỳ&quot;/master(hoặc main tùy tên nhánh chính của mỗi người)">
+<style align="left"/>
+</topic>
+</topics>
+<relations/>
+</mindmap>
+</simplemind-mindmaps>
